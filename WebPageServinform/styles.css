@@ -1,0 +1,371 @@
+﻿body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+#wrapper {
+    overflow:visible;
+}
+
+/*Header*/
+
+header {
+    padding: 2%;
+    display: flex;
+    align-items:center;
+}
+
+#logo {
+    width: 25%;
+}
+
+#main_menu {
+    display: inline-block;
+    font-size: 1.8em;
+    list-style:none;
+    margin-left:15%;
+}
+
+#main_menu li {
+    display: inline-block;
+    border-right: 2px solid #BEBEBE;
+    padding-right:5px;
+ }
+
+#main_menu li:last-child {
+    border-right: none;
+}
+
+#main_menu li a {
+    color:initial;
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    width: 90%;
+    height: 40px;
+    margin-top: 0;
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px;
+}
+
+.category {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin:0;
+    padding: 0 15px;
+    
+}
+
+.floated {
+    position: relative;
+    float: left;
+}
+
+.greenText {
+    color: #355f3b;
+    font-weight: bold;
+}
+
+.blue {
+    color: #43a9e8;
+}
+
+.category h1{
+    text-align: center;
+}
+
+/*CLUBES*/
+
+#clubes {
+    padding: 5%;
+}
+
+.columns_clubes {
+    position: relative;
+    float: left;
+    width: 47%;
+}
+
+#clubes_info {
+    text-align:center;
+}
+
+#clubes_header {
+    position: relative;
+    text-align: center;
+}
+
+#clubes_header h2 {
+    display:inline-block;
+}
+
+#clubes_header img {
+    height: 4em;
+}
+
+#aside {
+    margin-left: 2%;
+    border: 1px groove #fafafb;
+    border-radius:5px;
+    overflow:hidden;
+}
+
+#aside img{
+    border-radius: 4px 4px 0 0;
+}
+
+#aside_texts{
+    padding:4%;
+}
+
+.columns_clubes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.columns_clubes ul li {
+    background: url('imgs/checkpoint.jpg') no-repeat left top;
+    padding: 0 0 0 45px;
+    margin: 7px 0;
+}
+
+#bttn {
+    background-color: #488B4A;    
+    font-weight: bold;
+    border: 1px solid #488B4A;
+    border-radius:5px;
+    height:30px;
+}
+
+#bttnlink {
+    color: white;
+    text-decoration:none;
+}
+
+/*GRUPOS*/
+
+#skewGrupos {
+    transform: skewY(-7deg);
+    background-color: #F7FFF7;
+    overflow: hidden;
+    padding: 5%;
+}
+
+#grupos {
+    clear: both;
+    background-color: #F7FFF7;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    transform: skewY(7deg);
+}
+
+#grupos_menu {
+    width: 26%;
+    padding: 0;
+}
+
+.arrow{
+    float:right;
+    padding-right:5px;
+}
+
+#grupos_menu ul {
+    list-style-type: none;
+    background-color: #f2fdf4;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+}
+
+#grupos_menu ul li{
+    margin: 7px 0;
+    padding:5px;
+    border-radius:5px;
+}
+
+#li1 {
+    background-color: #ffffff;
+    color: #469d46;
+}
+
+#grupos_content {
+    background-color: inherit;
+    width: 70%;
+    padding: 5px 5px 5px 25px;
+    min-height: 500px;
+}
+
+.group_title {
+    font-size:1.6em;
+}
+
+.gr_content ul {
+    list-style: none;
+    padding: 0;
+    text-align: justify;
+}
+
+.detec {
+    background: url('imgs/abiertas.png') no-repeat left top;
+    padding: 0 0 0 45px;
+    min-height: 85px;
+    margin: 7px 0;
+}
+
+.tecnif {
+    background: url('imgs/cerradas.png') no-repeat left top;
+    padding: 0 0 0 45px;
+    min-height: 85px;
+    margin: 7px 0;
+}
+
+.gr_content{
+    display:none;
+}
+
+#gr_content1{
+    display: block;    
+}
+
+/*PRECIOS*/
+#precios {
+    width: 100%;
+    display: flex;
+    position:relative;
+    z-index: 1000;
+    
+}
+
+#pagos {
+    width: 80%;
+    height: 80%;
+    padding: 0 2% 3% 2%;
+    background-color: #ffffff;
+    border: 1px groove #fafafb;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#pagos table {
+    margin:5px;
+}
+
+.pago_texts {
+    width: 41%;
+}
+
+.price {
+    color: #04a44d;
+    font-size:1.8em;
+    font-weight:bold;
+}
+
+#pago_precios {
+    width: 15%;
+    text-align: center;
+    color: #717171;
+}
+
+/*SERVICIOS*/
+
+#skewServicios {
+    transform: skewY(-7deg);
+    background-color: #1d5a37;
+    height: 100px;
+    padding-top: 7%;
+}
+
+#servicios {
+    clear: both;
+    text-align: center;
+    background-color: #1d5a37;
+    color: #ffffff;
+    transform: skewY(7deg);
+    padding: 0 5% 5% 5%;
+}
+
+#servicios_wrapper {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+    background-color: #1a4f32;    
+    padding:5px;
+}
+
+#header_servicios{
+    width:100%;
+}
+
+#header_servicios tr td {
+    width: 33%;
+    height: 100%;
+}
+
+#header_servicios tr td div {
+    color: #ffffff;
+    font-weight: bold;
+    height: 57px;
+    width: 98%;
+    margin-left: 3px;
+    margin-bottom: 6px;
+    text-align:center;
+}
+
+.radius {
+    border-radius: 6px;
+}
+
+#benjamin_header {
+    background-color: #1e6644;
+}
+
+#alevin1_header {
+    background-color: #1a824e;
+}
+
+#alevin2_header {
+    background-color: #1a9d5a;
+}
+
+#table_servicios {
+    width: 100%;
+    overflow:auto;
+}
+
+.outer_td {
+    width: 33%;
+    height: 100%;
+    background-color: #2c6f50;
+    border-radius: 10px;
+    border: 5px solid #1a4f32;
+    vertical-align: top;
+}
+
+.inner_table {
+    background-color: #2c6f50;    
+    border-radius: 5px;
+    color: #e5e8e7;    
+    text-align: center;
+    vertical-align:top;
+}
+
+.inner_table tr td {
+    border-bottom: 1px solid #2a5c42;
+    padding: 10px;
+}
+
+.last {
+    border-bottom: none !important;
+}
+
+
+
